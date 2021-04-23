@@ -6,7 +6,7 @@ export default function Keyboard(props) {
         <div>
             {
                 props.letter == "space" ?
-                <button className='keySpace' onClick={() => {props.changeText(" ")}}></button>
+                <button className='key keySpace' onClick={() => {props.changeText(" ")}}></button>
                 :
                 <button className='key' onClick={() => {props.changeText(props.letter)}}>{props.letter}</button>
             }
