@@ -1,0 +1,11 @@
+.key {
+    min-width: 6vw;
+    height: 6vh;
+    margin: 3px;
+}
+
+.keySpace {
+    min-width: 40vw;
+    height: 6vh;
+    margin: 3px;
+}
