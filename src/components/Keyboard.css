@@ -13,7 +13,8 @@
 
 #textBox {
     border: 2px solid black;
-    min-width: 50vw;
+    width: 50vw;
+    overflow-wrap:break-word;
     min-height: 20vh;
     margin: 10px;
 }
